@@ -1,6 +1,6 @@
 # Tiny-netcat.py
 
-Image here
+![](https://raw.githubusercontent.com/dabasanta/tiny-netcat.py/main/examples/netcat-logo.jpg)
 
 **tiny-netcat** is a python script that provide shell access for remote connections through sockets.
 
@@ -39,7 +39,9 @@ Example:
 Use **-i** to set the IPv4 address where you want bind the shell.
 Use **-p** to set the port where you wnat listen. Default port is 4444.
 
-Image here
+You can connect to the socket using netcat or nc.
+
+![](https://raw.githubusercontent.com/dabasanta/tiny-netcat.py/main/examples/ConnectionExample.png)
 
 ## Limitations
 This is a very limited shell, his purpose is not be a interactive shell, is provide a shell access when another tools went failed.
