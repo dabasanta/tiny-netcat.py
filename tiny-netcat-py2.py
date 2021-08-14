@@ -93,7 +93,6 @@ if __name__ == u'__main__':
     parser = argparse.ArgumentParser(description=u'Simple NetCat alternative',
                                      formatter_class=argparse.RawDescriptionHelpFormatter,
                                      epilog=textwrap.dedent(u'''Example:
-    ./netcat.py -h 10.10.10.100 -p 4455
     ./netcat.py -h 10.10.10.100 -p 5555
     
     You can connect to the socket by using netcat or nc in the attacker computer:
